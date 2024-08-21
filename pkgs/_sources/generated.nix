@@ -131,19 +131,6 @@
     };
     date = "2022-12-11";
   };
-  genreSrc = {
-    pname = "genreSrc";
-    version = "f2cb950a7e27cce3bfd4168141b5c5e55552df5a";
-    src = fetchgit {
-      url = "https://github.com/Shinyhero36/Spicetify-Genre";
-      rev = "f2cb950a7e27cce3bfd4168141b5c5e55552df5a";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-R7D6oiSZviZQiMo6GSe4phQKfUmLNToXkyv6F4JXf3M=";
-    };
-    date = "2023-03-04";
-  };
   groupSessionSrc = {
     pname = "groupSessionSrc";
     version = "a9fa45da69495137b2f7272f61ff8d1a457aef5b";
