@@ -17,17 +17,17 @@
   };
   bloomSrc = {
     pname = "bloomSrc";
-    version = "93f5bf491d44cd973d4ec58e23055b309022ced7";
+    version = "809c042ca8f88540604fbd6aca35f42bddfcaf27";
     src = fetchgit {
       url = "https://github.com/nimsandu/spicetify-bloom";
-      rev = "93f5bf491d44cd973d4ec58e23055b309022ced7";
+      rev = "809c042ca8f88540604fbd6aca35f42bddfcaf27";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-O/AkAYnQjczulrrH3wuexWfKGje/Jh0aqdAsKoLCARw=";
+      sha256 = "sha256-dyCCpTiLAqObeHEfmwT89J52NB3M2L17/E5klIXMTec=";
     };
-    date = "2024-06-28";
+    date = "2024-09-09";
   };
   catppuccinSrc = {
     pname = "catppuccinSrc";
@@ -87,17 +87,17 @@
   };
   dakshExtensions = {
     pname = "dakshExtensions";
-    version = "232b892f2ba415152dff8060f83ecc2f704a3371";
+    version = "a8a9b2574fbd2b11fe3e8d02736c762dddcbf490";
     src = fetchgit {
       url = "https://github.com/daksh2k/Spicetify-stuff";
-      rev = "232b892f2ba415152dff8060f83ecc2f704a3371";
+      rev = "a8a9b2574fbd2b11fe3e8d02736c762dddcbf490";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-J0VytMVP+leLmHyC5Ws+k0Ed3jZHcm0RVeZ95kaFy70=";
+      sha256 = "sha256-9GNOE3NodqnHmqMzH6/PTK3DSRd2DFxFIBA6b1vfGVM=";
     };
-    date = "2024-07-21";
+    date = "2024-09-14";
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
@@ -269,31 +269,31 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "2b46b98913bebc18b495b29a2388729041ed1614";
+    version = "94e5c63c0f92df849c30719c92a09fa6cba3628e";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "2b46b98913bebc18b495b29a2388729041ed1614";
+      rev = "94e5c63c0f92df849c30719c92a09fa6cba3628e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-JFDUP03EBHUJ2qtQ4K1tp4+Bprz7y0tGWp+59hTf0tY=";
+      sha256 = "sha256-zCXxWUlYUb4CGzxHPNPjystqIXec6AOBXoQs7riaMkY=";
     };
-    date = "2024-09-09";
+    date = "2024-09-12";
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "b47dde8748a2f5fe9556dd2cd0b48625b0e79788";
+    version = "a7188019862d06ff522e69f156f3c42f10b29c9e";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "b47dde8748a2f5fe9556dd2cd0b48625b0e79788";
+      rev = "a7188019862d06ff522e69f156f3c42f10b29c9e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-3sg2Ue4ncrke65LAB4I0pXw7SO5uz9ZseYZKJZV5bk0=";
+      sha256 = "sha256-6eq93LojOsi1ZyLzLKJLg4hF8e6Du8AAtpZxZN1ceFc=";
     };
-    date = "2024-09-02";
+    date = "2024-09-10";
   };
   omniSrc = {
     pname = "omniSrc";
