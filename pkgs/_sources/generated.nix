@@ -59,17 +59,17 @@
   };
   comfySrc = {
     pname = "comfySrc";
-    version = "4fed09d3c040d635d1e709a75f25afbd0703cad1";
+    version = "d576cb9c744cf2e5ab67a086862496dac391a5f4";
     src = fetchgit {
       url = "https://github.com/Comfy-Themes/Spicetify";
-      rev = "4fed09d3c040d635d1e709a75f25afbd0703cad1";
+      rev = "d576cb9c744cf2e5ab67a086862496dac391a5f4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-fHXiVfY2ANyBg8ONCV5JTPdGBfeME2gLBnRYfNmeTDs=";
+      sha256 = "sha256-l+Ct+oHAjZMKnh4kYGJDsleEDl8FRAPqSvzFGuuahok=";
     };
-    date = "2024-09-27";
+    date = "2024-10-12";
   };
   customAppsExtensionsSrc = {
     pname = "customAppsExtensionsSrc";
@@ -101,17 +101,17 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "dea94e2a7d572436aca4a01664084a809b3f6f80";
+    version = "5ceea45210a20d4ec9e7eeddc07e13f74e4c1609";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "dea94e2a7d572436aca4a01664084a809b3f6f80";
+      rev = "5ceea45210a20d4ec9e7eeddc07e13f74e4c1609";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+UZuUCgSU7MCWEUT1yqQeHfKjNIAUpy/VkEYgy5c2Sg=";
+      sha256 = "sha256-Z1Ils5NFK9jfzADram3AfSu6U4zwr/gKEPljyMp8gOU=";
     };
-    date = "2024-09-28";
+    date = "2024-10-13";
   };
   draculaSrc = {
     pname = "draculaSrc";
@@ -143,17 +143,17 @@
   };
   groupSessionSrc = {
     pname = "groupSessionSrc";
-    version = "bc93e673d7efaa0294eca69321de33dc1dc8bdc3";
+    version = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
     src = fetchgit {
       url = "https://github.com/timll/spotify-group-session";
-      rev = "bc93e673d7efaa0294eca69321de33dc1dc8bdc3";
+      rev = "e6a2ce35589b9404e539c5778fa1c2efa53eefe6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-GY0V6UwKhbKONAE+vZgV6xx3BzUUvfjjeyH1yYzVl2g=";
+      sha256 = "sha256-+DMtll5VGFkQIeeH+WklPow0iRzz0Sv1I/N8Gt4vzyQ=";
     };
-    date = "2023-11-29";
+    date = "2024-10-12";
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
