@@ -101,17 +101,17 @@
   };
   defaultDynamicSrc = {
     pname = "defaultDynamicSrc";
-    version = "c210f2a0ca5607c34ea2766d3bdff565157b76bd";
+    version = "ef8f831fa53f0a0cc2d06053d36fde35d2a2eeb0";
     src = fetchgit {
       url = "https://github.com/JulienMaille/spicetify-dynamic-theme";
-      rev = "c210f2a0ca5607c34ea2766d3bdff565157b76bd";
+      rev = "ef8f831fa53f0a0cc2d06053d36fde35d2a2eeb0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-3Sq+Z+Fvrwpdi3WFXrX+N94/nySCe6QTeJFzUu+ELwI=";
+      sha256 = "sha256-dZ9SMf2JnZvL2JC/TEF9yaFL5kAkjfl1F24rSjCxIrA=";
     };
-    date = "2024-11-07";
+    date = "2024-11-15";
   };
   draculaSrc = {
     pname = "draculaSrc";
@@ -269,17 +269,17 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "e7333a714c848465e59edeea77e156c2be2b9e9f";
+    version = "e3ec2ecc61e04f248ca185141eb7977ce3c44adb";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "e7333a714c848465e59edeea77e156c2be2b9e9f";
+      rev = "e3ec2ecc61e04f248ca185141eb7977ce3c44adb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SnMQLBKHwTGPxQCtSuSh1sRTwrslpLGKL2IwAsycg0o=";
+      sha256 = "sha256-zSnqdqoD2pOZDYITi59RtiMOyj3ALqtVC0GAvYNV+7s=";
     };
-    date = "2024-11-02";
+    date = "2024-11-13";
   };
   officialThemes = {
     pname = "officialThemes";
@@ -381,17 +381,17 @@
   };
   spotifyNoPremiumSrc = {
     pname = "spotifyNoPremiumSrc";
-    version = "9abed42e8777de09041b1197dfe5794266ce6523";
+    version = "6b145fb84e16cdaea8f06aef4d1cfc0d6f5898e5";
     src = fetchgit {
       url = "https://github.com/Daksh777/SpotifyNoPremium";
-      rev = "9abed42e8777de09041b1197dfe5794266ce6523";
+      rev = "6b145fb84e16cdaea8f06aef4d1cfc0d6f5898e5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-uhCFkL0Y2UdMaDecS9GE6Xl23loG54K304v2V8mqEA4=";
+      sha256 = "sha256-pjIBh40SnUgyAKGwVRKod2ac8+uqGJ2WSTnOYc9UnGA=";
     };
-    date = "2024-05-22";
+    date = "2024-11-11";
   };
   spotifywmSrc = {
     pname = "spotifywmSrc";
