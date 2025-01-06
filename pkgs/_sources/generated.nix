@@ -157,17 +157,17 @@
   };
   hidePodcastsSrc = {
     pname = "hidePodcastsSrc";
-    version = "07de1ba9981f6a6523adc2f8d8870c5339f6c3f2";
+    version = "36ed07c460cab47cb352b2e2fd493b00df1eabaf";
     src = fetchgit {
       url = "https://github.com/theRealPadster/spicetify-hide-podcasts";
-      rev = "07de1ba9981f6a6523adc2f8d8870c5339f6c3f2";
+      rev = "36ed07c460cab47cb352b2e2fd493b00df1eabaf";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-jTM66x6Z2ZyfaDMlhT7zuueffVLo4184MmOJPaaPcY4=";
+      sha256 = "sha256-iLifViDyIBmJot2UjWVpMywv+iwKK4gtGYPD/J/eyRc=";
     };
-    date = "2024-12-01";
+    date = "2025-01-01";
   };
   historySrc = {
     pname = "historySrc";
@@ -241,17 +241,17 @@
   };
   nameThatTuneSrc = {
     pname = "nameThatTuneSrc";
-    version = "2f56755a820a9d06c8f85a0b38fcaa5f3ae9e7e5";
+    version = "858b98baa97e486a8589b26164c9eb1aa3605282";
     src = fetchgit {
       url = "https://github.com/theRealPadster/name-that-tune";
-      rev = "2f56755a820a9d06c8f85a0b38fcaa5f3ae9e7e5";
+      rev = "858b98baa97e486a8589b26164c9eb1aa3605282";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-zBGEpUmVyNABoelX06CbmUn1Zmkp4reehjN/++DSS3Y=";
+      sha256 = "sha256-fBdR6foZGM+YPv52TBhhF0qPDDsgflD6viWebOZcY4Y=";
     };
-    date = "2024-11-01";
+    date = "2025-01-01";
   };
   nordSrc = {
     pname = "nordSrc";
